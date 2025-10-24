@@ -50,7 +50,7 @@ class TableOfContents_Plugin implements Typecho_Plugin_Interface
         $minHeaders = new Typecho_Widget_Helper_Form_Element_Text(
             'minHeaders',
             NULL,
-            '3',
+            '2',
             '最小标题数量',
             '当文章标题数量少于此值时不显示目录'
         );
@@ -530,4 +530,5 @@ class TableOfContents_Plugin implements Typecho_Plugin_Interface
 })();
 </script>';
     }
+
 } 
