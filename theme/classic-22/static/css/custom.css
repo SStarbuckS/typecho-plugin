@@ -1,0 +1,50 @@
+/* 
+ * Classic 22 自定义样式
+ * 在这里添加您的自定义CSS
+ */
+
+/* 文章分隔线间距 */
+.post-separator {
+  margin: 2rem 0;
+}
+
+/* 文章版权信息 */
+.post-copyright {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+  background-color: var(--pico-code-background-color);
+  font-size: 0.875rem;
+  color: var(--pico-muted-color);
+}
+
+.post-copyright p {
+  margin-bottom: 0;
+}
+
+.post-copyright img {
+  vertical-align: text-bottom;
+}
+
+/* 文章摘要链接样式 */
+a.excerpt-link,
+a.excerpt-link:link,
+a.excerpt-link:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+a.excerpt-link:hover,
+a.excerpt-link:active {
+  color: inherit !important;
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+.excerpt-link p {
+  color: inherit !important;
+  margin-bottom: var(--pico-typography-spacing-vertical);
+} 
